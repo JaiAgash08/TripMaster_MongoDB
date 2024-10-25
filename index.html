@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripMaster: Your Ultimate Travel Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>TripMaster</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#tours">Popular Tours</a></li>
+                <li><a href="#accommodation">Accommodation</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Your Journey Starts Here</h2>
+        <p>Explore breathtaking destinations, plan your perfect itinerary, and manage your travel budget all in one place. Discover the world with TripMaster, your ultimate travel companion.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Premium Travel Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img src="assets/images/expense tracker.jpeg" alt="Travel Expense Tracker">
+                <h3>Travel Expense Tracker</h3>
+                <p>Our intuitive expense tracker helps you log and categorize your travel expenses with ease. Whether it's accommodation, meals, or activities, you can manage your budget in real-time and avoid overspending. Keep track of your daily, weekly, and overall spending, ensuring that your dream vacation doesn't break the bank. Visual insights in the form of graphs and charts make financial management simple and stress-free.</p>
+                <a href="services/travel-expense-tracker.html" class="learn-more-btn">Learn More</a>
+            </div>
+                
+            <div class="service-card">
+                <img src="assets/images/travel itenary.jpeg" alt="Itinerary Planner">
+                <h3>Itinerary Planner</h3>
+                <p>Plan your travel adventures like a pro with our itinerary planner. Effortlessly create detailed schedules that include must-see attractions, top-rated restaurants, and transportation options. Collaborate with friends and family on shared trips and synchronize your plans to ensure everyone stays on the same page. Our seamless integration with mapping services allows you to view routes, travel times, and nearby points of interest, all at your fingertips.</p>
+                <a href="services/itinerary-planner.html" class="learn-more-btn">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <img src="assets/images/local experience.jpeg" alt="Local Experience Finder">
+                <h3>Local Experience Finder</h3>
+                <p>Enhance your travel experience by connecting with locals offering unique and immersive activities. Whether it's a cooking class in Tuscany, a guided tour through hidden gems, or a cultural workshop in Southeast Asia, our platform helps you book memorable experiences that are often off the beaten path. Read reviews from fellow travelers, browse curated experiences by your destination, and secure bookings directly through the platform.</p>
+                <a href="services/local-experience-finder.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Tours Section -->
+    <section id="tours">
+        <h2>Popular Tours</h2>
+        <div class="tour-cards">
+            <!-- Island Adventure Tour -->
+            <div class="tour-card">
+                <img src="assets/images/island.jpg" alt="Island Adventure Tour">
+                <h3>Island Adventure Tour</h3>
+                <p>Embark on an unforgettable island adventure with pristine beaches, snorkeling in crystal-clear waters, and hidden jungle trails. All-inclusive package with accommodation, meals, and transportation.</p>
+                <a href="popular_plans/island-tour.html" class="btn">See Details</a>
+            </div>
+    
+            <!-- Cultural Immersion Tour -->
+            <div class="tour-card">
+                <img src="assets/images/culture.jpeg" alt="Cultural Immersion Tour">
+                <h3>Cultural Immersion Tour</h3>
+                <p>Immerse yourself in local cultures, visit ancient temples, participate in festivals, and enjoy authentic cuisine. Perfect for travelers looking for a deeper cultural experience.</p>
+                <a href="popular_plans/cultural-tour.html" class="btn">See Details</a>
+            </div>
+    
+            <!-- Adventure Trekking Tour -->
+            <div class="tour-card">
+                <img src="assets/images/trekking.jpg" alt="Adventure Trekking Tour">
+                <h3>Adventure Trekking Tour</h3>
+                <p>Push your limits with our thrilling trekking adventures through stunning landscapes. Experienced guides, top-notch equipment, and challenging itineraries are all included.</p>
+                <a href="popular_plans/trekking-tour.html" class="btn">See Details</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Accommodation Section -->
+    <section id="accommodation">
+        <h2>Luxury & Comfortable Stays</h2>
+        <div class="accommodation-cards">
+            <div class="accommodation-card">
+                <img src="assets/images/beachresort.jpg" alt="Beachfront Resort">
+                <h3>Beachfront Resort</h3>
+                <p>Enjoy the serenity of oceanfront living at our exclusive beachfront resorts. With luxury accommodations and direct beach access, this is the perfect escape for travelers seeking both relaxation and adventure. Wake up to stunning views, indulge in world-class cuisine, and spend your days lounging by the water or exploring nearby attractions. Whether you’re traveling as a couple or with family, our resort promises an unforgettable stay.</p>
+            </div>
+
+            <div class="accommodation-card">
+                <img src="assets/images/mountainresort.jpg" alt="Mountain Lodge">
+                <h3>Mountain Lodge</h3>
+                <p>Nestled in the heart of the mountains, our cozy lodges offer the perfect retreat for nature lovers. Escape the hustle and bustle of daily life and immerse yourself in the beauty of the great outdoors. Our lodges are fully equipped with modern amenities and provide easy access to hiking trails, ski resorts, and other outdoor activities. Whether you’re here to relax or seek adventure, the mountain lodge is the ideal getaway.</p>
+            </div>
+
+            <div class="accommodation-card">
+                <img src="assets/images/city_hotel.jpg" alt="City Hotel">
+                <h3>City Hotel</h3>
+                <p>Located in the heart of bustling city centers, our hotels provide a perfect base for travelers looking to explore urban environments. Enjoy easy access to top attractions, shopping districts, and dining options. Our modern, stylish rooms come equipped with all the amenities you need for a comfortable stay. Whether you’re traveling for business or leisure, our city hotels cater to every traveler’s needs.</p>
+            </div>
+        </div>
+        <br><br>
+        <button onclick="reserveAccommodation()">Reserve Now</button>
+    </section>
+
+    <!-- Link to the JavaScript function -->
+    <script>
+        function reserveAccommodation() {
+            console.log("Reserve button clicked!"); // Debugging line
+            window.location.href = 'public/book.html'; // Ensure this path is correct for your project structure
+        }
+    </script>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need further information, feel free to reach out to us at:</p>
+        <p>Email: tripmater@gmail.com</p>
+        <p>Phone: +91 9361848760</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TripMaster. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="assets/images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="assets/images/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <script src="nav.js"></script>
+</body>
+</html>

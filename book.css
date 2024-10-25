@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #333; /* Background color */
+    overflow: hidden; /* Clear floats */
+    text-align: center; /* Center the text in the navbar */
+}
+
+.navbar a {
+    display: inline-block; /* Make links inline-block */
+    color: white; /* Link color */
+    text-align: center; /* Center text in links */
+    padding: 14px 16px; /* Padding around links */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Hover background color */
+    color: black; /* Hover text color */
+}
+
+
+/* Container Styles */
+.container {
+    width: 400px; /* Width of the form container */
+    margin: 100px auto; /* Center container vertically and horizontally */
+    padding: 20px;
+    background-color: #fff; /* White background for forms */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text for headings and buttons */
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 24px; /* Font size for headings */
+    margin-bottom: 20px; /* Space below heading */
+    color: #333; /* Darker color for better contrast */
+}
+
+/* Label Styles */
+label {
+    margin: 10px 0 5px; /* Spacing around labels */
+    display: block; /* Block display for stacking */
+    font-weight: bold; /* Bold labels for emphasis */
+    color: #555; /* Color for labels */
+}
+
+/* Input Styles */
+input, select, textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 3px; /* Rounded corners */
+    transition: border 0.3s; /* Smooth transition for border on focus */
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 1px solid #007bff; /* Highlight border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button Styles */
+button {
+    width: 100%; /* Full width buttons */
+    padding: 10px; /* Padding inside buttons */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 3px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for buttons */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 400px) {
+    .container {
+        width: 90%; /* Full width on smaller screens */
+        padding: 15px; /* Padding adjustments */
+    }
+
+    h1 {
+        font-size: 20px; /* Smaller heading font size */
+    }
+
+    button {
+        font-size: 14px; /* Smaller button font size */
+    }
+}

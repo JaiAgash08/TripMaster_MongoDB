@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Trip</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+    </div>
+
+    <div class="container">
+        <h1>Book Your Trip</h1>
+        <form id="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" required>
+                <option value="" disabled selected>Select a destination</option>
+                <option value="City Tour">City Tour</option>
+                <option value="Nature Adventure">Nature Adventure</option>
+                <option value="Culture Experience">Culture Experience</option>
+                <option value="Beach Gateway">Beach Gateway</option>
+                <option value="Mountain Hiking">Mountain Hiking</option>
+                <!-- Add more destinations as needed -->
+            </select><br>
+
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="duration">Duration (days):</label>
+            <input type="number" id="duration" name="duration" min="1" required><br>
+
+            <label for="num-people">Number of People:</label>
+            <input type="number" id="num-people" name="num-people" min="1" required><br>
+
+            <label for="other-info">Other Information:</label>
+            <textarea id="other-info" name="other-info" rows="4" placeholder="Any special requests or additional information..."></textarea><br>
+
+            <button type="submit">Reserve Now</button>
+        </form>
+    </div>
+
+    <script src="submit_booking.js"></script>
+</body>
+</html>
